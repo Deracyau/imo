@@ -6,9 +6,9 @@ date_default_timezone_set('Asia/Jakarta');
 $timestamp = time();
 $wak = date("[H:i:s]", $timestamp);
 
-$proxy = 'http://pujcvpjv:wzjxit7uyig0@144.168.217.88:8780';
-$cok = "gc2023=1c31a4b6b5553eeaa53e8c142116487f5e4c9681; _gid=GA1.2.791762934.1675422083; _ga_HF8YJ4L2V3=GS1.1.1675477521.2.1.1675477698.0.0.0; cf_clearance=h5rLbzAgjZShGGFY.D.EZL7G_FSp9sqfVhzxWpIj8Ag-1675494473-0-150; csrf_cookie_name=cc3ab1c7c25ae0c05cb76f2b2c13ef65; __cf_bm=B3tB3tZtA0p8mYRGeDlPGbZqBN5ilgQ7HkpRfqd.N3Q-1675496895-0-AXD+UxfwWUMXTzPhT6uasszRoUtUH9ks0bM/0qHoL2KbyVSH4SvNiFSHcxa1wimXavBa1WixEBrhV2FOmPwWnTctO0ga/Bxx6cYPZyJpFcB0kgXQujDPjNWpNphkMw0214DizdJNJuAKDL/UZ+Gqcz4=; _gat_gtag_UA_186136571_1=1; _ga=GA1.1.1364264705.1675422083; _ga_VNH8H2P83Z=GS1.1.1675496901.5.1.1675496956.5.0.0";
-$us = " Mozilla/5.0 (Linux; Android 11; V2043) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36";
+$proxy = 'http://hdnbjrjb:yi3ukcv8u68m@188.74.210.21:6100';
+$cok = "gc2023=f9b349ab92319399e996019d2415c95093a2a856; _gid=GA1.2.1732249465.1675499479; cf_clearance=HC4UQ45IQxbQ0RPazo5AO0EUdcHxcxIIThtM.kyNFKA-1675499715-0-150; csrf_cookie_name=d9ac1c5964a2bd84af3e63858d61c9f4; __cf_bm=n60ntCGKLpIIvCNOgykG8EOtoiuQV551BzIPu6s6i_U-1675499719-0-AbdtnYIkhlaWSKF0R/PJbLCHnvOhFVRA+ebDo+t8TAi1Zpmsdu8Wyj7TqYmYyTuOIN6QUTuM9DudnT+2JRDoow4pqwHXMZ81zPrQMfHD++fUrs8inJaDaQj2WMyXP2ps7hrhgACFXOHFqqGSzuTycgc=; _gat_gtag_UA_186136571_1=1; _ga=GA1.1.724447788.1675499477; _ga_VNH8H2P83Z=GS1.1.1675499476.1.1.1675499750.50.0.0";
+$us = " Mozilla/5.0 (Linux; Android 8.1.0; vivo 1908) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36";
 
 $ua=array(
 "Host: gwaher.com", 
