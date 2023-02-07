@@ -5,7 +5,7 @@ system('clear');
 a:
 $proxy = 'http://hdnbjrjb:yi3ukcv8u68m@188.74.210.21:6100';
 $us = "Mozilla/5.0 (Linux; Android 8.1.0; vivo 1908) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36";
-$cok = "Cookie_id=0gy6e1tx47d2rd4feu95s; _ga=GA1.1.1590554672.1675765020; cf_clearance=vK2RvlrEIPL6EpAVqk5x6.a6qBaxapLmrehNV7QgC2Y-1675777130-0-160; PHPSESSID=71eb8d381970749c87ee194888244144; _ga_1H915N6YP6=GS1.1.1675777173.2.1.1675777186.0.0.0";
+$cok = "Cookie_id=0gy6e1tx47d2rd4feu95s; _ga=GA1.1.1590554672.1675765020; cf_clearance=orTVyiwtY1VS9H5lgK895fVoMVlGn_GQTZwN6sjOOlU-1675787573-0-160; PHPSESSID=0c2d959196ed6bdf08254fb253d43765; _ga_1H915N6YP6=GS1.1.1675787607.3.1.1675787626.0.0.0";
 $ua=array(
 "Host: www.biowallet.store", 
 "content-type: application/x-www-form-urlencoded", 
