@@ -81,7 +81,7 @@ echo "\033[1;90m=======================================\n";
 }else{
 goto b;
 }
-
+/*
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://www.biowallet.store/log_out');
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
@@ -93,12 +93,13 @@ curl_setopt($ch, CURLOPT_PROXY, $proxy);
 curl_setopt($ch, CURLOPT_COOKIEFILE,"cookie.txt");
 curl_setopt($ch, CURLOPT_COOKIEJAR,"cookie.txt"); 
 $ref = curl_exec($ch);
+/**/
 for ($x=60;$x>0;$x--){
 echo "\r   \r";
 echo "\r  \033[0;37mwait \033[0;37m[\033[0;33m".$x."\033[0;37m] \r";
 sleep(1);
 }
-$bett = next($wal);
+//$bett = next($wal);
 
 
 goto a;
