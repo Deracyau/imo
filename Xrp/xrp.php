@@ -5,7 +5,7 @@ system('clear');
 a:
 $proxy = 'http://hdnbjrjb:yi3ukcv8u68m@188.74.183.10:8279';
 $us = "Mozilla/5.0 (Linux; Android 13; Redmi Note 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36";
-$cok = "Cookie_id=7yd4gutes0fd9164r25xe; _ga=GA1.1.1160739377.1675758947; ref_id=samstonkie; PHPSESSID=c21b62dbe0c1cbb97baf2641e009ceff; _ga_1H915N6YP6=GS1.1.1675777466.2.1.1675777475.0.0.0";
+$cok = "Cookie_id=7yd4gutes0fd9164r25xe; _ga=GA1.1.1160739377.1675758947; PHPSESSID=5191636106890c7f2ca1d066173e50ba; _ga_1H915N6YP6=GS1.1.1675834067.3.1.1675834080.0.0.0";
 $ua=array(
 "Host: www.biowallet.store", 
 "content-type: application/x-www-form-urlencoded", 
@@ -43,7 +43,10 @@ $res = curl_exec($ch);
 //echo($res);
 $suc = explode(", please wait while we reload this page" ,explode("<div class='container-fluid p-2 text-white text-center' style='background-color: green;'>", $res)[1])[0];
 if($suc == "Your withdrawal request is created"){
-echo "[>] $suc \n";
+date_default_timezone_set('Asia/Jakarta');
+$timestamp = time();
+$wak = date("[H:i]", $timestamp);
+echo "\033[1;37m$wak \033[1;32m$suc \n";
 
 }else{
 goto b;
